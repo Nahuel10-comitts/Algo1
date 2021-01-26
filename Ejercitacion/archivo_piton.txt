@@ -1,0 +1,3 @@
+def #nombre de la funcion () # Parametros Formales
+#Aca habra muchas lineas de codigo
+Return #Puede devolver una o mas cosas

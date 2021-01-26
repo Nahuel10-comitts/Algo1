@@ -1,0 +1,81 @@
+EJERCICIO 1:
+
+Escribir una funci�n que reciba una cadena de caracteres alfanum�ricos y devuelva la cantidad de 
+caracteres alfab�ticos (letras) que hay en la cadena.
+
+Debe validar que lo recibido sea una cadena formada s�lo por n�meros y/o letras, si no lo fuera, la funci�n 
+debe devolver -1.
+
+Deber� comprobar el correcto funcionamiento, mediante los siguientes casos de prueba usando la librer�a 
+doctest.
+
+Para "Algoritmos", debe devolver 10
+Para "Ejercicio1", debe devolver 9
+Para "z", debe devolver 1
+Para "Algoritmos 1", debe devolver -1
+Para "", debe devolver -1
+Para "+*ab", debe devolver -1
+Para "2por1", debe devolver 3
+Para "01101011110", debe devolver 0 #Hecho
+
+*******************************************************
+
+EJERCICIO 2:
+
+Escribir una funcion que devuelva verdadero si elegis un delivery que figura en un sitio, falso de lo 
+contrario. 
+
+La funcion recibe dos listas: una de platos y otra de valoraciones dadas en cantidad de motos.
+
+La lista platos puede tener desde 1 a n platos.
+
+La lista valoraciones puede tener desde 1 a m valoraciones (de 1 a 5).
+
+
+
+Se elige el delivery cuando:
+
+- En la lista platos tiene "milanesa" y "papas fritas" (ambos platos deben estar como dos platos distintos) 
+o "pizza napolitana"  
+
+- Ademas de lo anterior, el promedio de valoraciones tiene que ser mayor o igual que 3,
+
+  salvo que tenga algun 1, en ese caso no se acepta
+
+
+
+Ademas, agrega DOS casos de prueba adicionales,en donde uno sea Falso y el otro Verdadero.
+
+
+
+NOTA: bajate este archivo que tiene listas cargadas y casos de prueba. El codigo escribilo ahi mismo. #Hecho
+
+*******************************************************
+
+EJERCICIO 3:
+
+El diccionario "campeonato" tiene cargados a equipos de futbol como clave y una terna de numeros (lista), 
+
+cuyo significado es: partidos ganados (primer valor), partidos empatados (segundo valor), 
+
+partidos perdidos (tercer valor).
+
+
+
+Se pide que hagas un programa en Python que:
+
+a) Indique si hay solo un equipo que mas partidos jugados que el resto de los equipos.
+
+b) Liste de mayor a menor los equipos por puntaje, teniendo en cuenta que obtiene 3 puntos por
+
+cada partido ganado, y un punto por cada partido empatado.
+
+Indicando:
+
+equipo - puntaje
+
+
+
+NOTA: bajate este archivo que tiene el diccionario cargado. El codigo escribilo en otro archivo, importando el de fixture.
+
+#No tengo los casos de prueba

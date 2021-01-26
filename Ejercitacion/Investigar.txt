@@ -1,0 +1,6 @@
+datos emun en python y c.
+Unicode y ASCII.
+Constantes en Python. Listo
+Significado de scripts. Listo
+ERRORLEVEL.
+Debuggin de Thonny.
